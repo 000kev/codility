@@ -12,5 +12,9 @@ func Solution(X int, A []int) int {
 			return i
 		}
 	}
+
+	if count > 0 {
+		return -1
+	}
 	return 0
 }
