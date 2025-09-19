@@ -2,7 +2,7 @@ package permcheck
 
 func Solution(A []int) int {
 	n := len(A)
-	count_array := make([]int, n + 1)
+	count_array := make([]int, n+1)
 	for i := range A {
 		if A[i] > n {
 			return 0
